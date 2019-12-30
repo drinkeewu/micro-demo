@@ -9,12 +9,12 @@
             <span>Vue</span>
           </span>
           <a-menu-item key="1-1">
-            <a href="/vue#">
+            <a href="/child/#">
               Home
             </a>
           </a-menu-item>
           <a-menu-item key="1-2">
-            <a href="/vue#/about">
+            <a href="/child/#/about">
               About
             </a>
           </a-menu-item>
@@ -48,6 +48,9 @@
   };
 </script>
 <style>
+  #components-layout-demo-custom-trigger{
+    height:100%;  
+  }
   #components-layout-demo-custom-trigger .trigger {
     font-size: 18px;
     line-height: 64px;
